@@ -88,6 +88,8 @@
 // console.log(namtaNumber + " " + "x" + " " + 9 + " " + " = " + namtaNumber*9);
 // console.log(namtaNumber + " " + "x" + " " + 10 + " " + " = " + namtaNumber*10);
 
+//  Metro Moni App Demo Start
+
 let gender = "Male";
 let income = 10000;
 let area = "Dhaka";
@@ -107,3 +109,56 @@ if (gender == "Male") {
 } else {
   console.log("Sorry, this form can only be filled out by males");
 }
+
+//  Metro Moni App Demo End
+
+// Marksheet create Start
+
+let marks = 80
+
+if (marks < 0 || marks > 100) {
+  console.log("Invalid Input");
+
+}
+
+else if (marks >=33 && marks <= 39) {
+  console.log("You Got D");
+
+}
+else if (marks >=40 && marks <=49) {
+   console.log("You Got C");
+}
+else if (marks >=50 && marks <=59) {
+   console.log("You Got B");
+}
+else if (marks >=60 && marks <=69) {
+   console.log("You Got A-");
+}
+else if (marks >=70 && marks <=79) {
+   console.log("You Got A");
+}
+else if (marks >=80 && marks <=100) {
+   console.log("You Got A+");
+}
+else{
+  console.log("You Are Failed");
+
+}
+// Marksheet create End
+
+// Login Logic Start
+// Input
+let userEmail = "hossenmdsagor8@gmail.com";
+let userPassword = "Sagor1234";
+// Input
+
+if (userEmail == "hossenmdsagor8@gmail.com") {
+  if (userPassword == "Sagor1234") {
+    console.log("Login Successful");
+  } else {
+    console.log("Criteria did not match");
+  }
+} else {
+  console.log("Criteria did not match");
+}
+// Login Logic End
